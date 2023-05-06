@@ -1,0 +1,685 @@
+@media (min-width: 320px){
+
+  
+
+    /* ........................ */
+    
+    .hiddenspan{
+        display: none;
+    }
+    .container{
+        width: 1200px;
+        max-width: 95%;
+        margin: 0 auto;
+        
+    }
+    .header{
+        position: fixed;
+        width: 1200px;
+        max-width: 95%;
+        background-color: white;
+        top:0;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 90px;
+        z-index: 10;
+    }
+    .navbar{
+        font-size: 30px;  
+    }
+    .icon{
+        font-size: 25px;
+        color:seagreen;
+        text-shadow: 1px 1px black;
+        font-style: italic;
+        font-weight: bold;
+    }
+    .nav{
+        display: none;
+    }
+    /* .........................................s1................................... */
+    body{
+        padding-top: 100px;
+    }
+    .s1{
+        /* margin-top: 100px; */
+    }
+    .bg{
+        background-image: url(../images/section1.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        width: 100%;
+        border-radius: 15px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .bg div{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+        height: 400px;
+        width: 60%;
+        text-align: center;
+        
+        
+    }
+    .bg h1{
+        font-size: 45px;
+        font-weight: bold;
+    }
+    .btn{
+        border: 3px solid rgba(51, 109, 51, 0.623);
+        background-color: rgba(51, 109, 51, 0.623);
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        height: 50px;
+        color: white;
+        transition: all 0.5s;
+    }
+    .btn:hover{
+        background-color:white;
+        color: rgba(51, 109, 51, 0.623);
+    }
+    
+    .hidden{
+        display: none;
+    }
+    /* ................................s2...................... */
+    .s2 h2{
+        margin: 30px 0;
+        font-size: 45px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: -2px;
+        color: rgba(51, 109, 51, 0.623);
+        text-shadow: 2px 2px black;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 15px;
+        width: 80%;
+    }
+    .text-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 15px;
+    }
+    .img1{
+        width: 200px;
+        height: 200px;
+        background-image: url(../images/classic.webp);
+        background-size: cover;
+        background-position: center;
+        transition: all 1s;
+    }
+    .img1:hover{
+        background-image:url(../images/classichover.webp) ;
+    }
+    .img2{
+        width: 200px;
+        height: 200px;
+        background-image: url(../images/oldschool.webp);
+        background-size: cover;
+        background-position: center;
+        transition: all 1s;
+    }
+    .img2:hover{
+        background-image: url(../images/oldschoolhover.webp);
+    }
+    .img3{
+        width: 200px;
+        height: 200px;
+        background-image: url(../images/decaf.webp);
+        background-size: cover;
+        background-position: center;
+        transition: all 1s;
+    }
+    .img3:hover{
+        background-image: url(../images/decafhover.webp);
+    }
+    .img4{
+        width: 200px;
+        height: 200px;
+        background-image: url(../images/guatemala.webp);
+        background-size: cover;
+        background-position: center;
+        transition: all 1s;
+    }
+    .img4:hover{
+        background-image:url(../images/guatemalahover.webp) ;
+    }
+    .box h4{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .box p{
+        line-height: 130%;
+    }
+    /* ..............................s3................... */
+    .black{
+        height:min-content;
+        width: 100%;
+        background-color: black;
+        
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        background: linear-gradient(
+            to bottom,
+            black 0%,
+            black 65%,
+            white 65%,
+            white 100%
+          );
+    }
+    .gray{
+        background-color: rgba(114, 108, 108, 0.185);
+        color: white;
+        text-align: center;
+        padding: 30px;
+        height: 300px;
+        
+        
+    }
+    .graywas{
+        color: white;
+        text-align: center;
+        border-radius: 15px 15px 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        
+    }
+    .textdiv2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .gray h3{
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .gray h3{
+        line-height: 160%;
+        font-size: 20px;
+    }
+    
+    .boxes{
+        color: white;
+        border-radius: 15px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        text-align: center;
+        width: 90%;
+        height: 300px;
+    }
+    .purple{
+        background-color: slateblue;
+    }
+    .green{
+        background-color: seagreen;
+    }
+    .brown{
+        background-color: sienna;
+    }
+    .boxes i{
+        font-size: 60px;
+    }
+    .boxes h4{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .boxes p{
+        line-height: 160%;
+    }
+   
+    
+    /* .............................s4..................... */
+    .s4{
+        margin-top: 50px;
+    }
+    .s4 .container{
+        width: 80%;
+       text-align: center;
+        margin: 0 auto;
+        
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+     .btn{
+        width: 200px;
+        margin: 0 auto;
+    }
+    .s4 h3{
+       font-size: 55px;
+       font-weight: bold;
+       letter-spacing: -4px;
+       color: rgb(51, 50, 50);
+       margin-bottom: 40px;
+    }
+    .s4-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 25px;
+        padding: 0 10%;
+        margin-bottom: 30px;
+    }
+    .s4-wrapper span{
+        font-size: 45px;
+        font-weight: bold;
+    }
+    .s4-wrapper div{
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+    }
+    .s4-wrapper h4{
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .green1{
+        color: salmon;
+    }
+    .purple1{
+        color: springgreen;
+    }
+    .brown1{
+        color: steelblue;
+    }
+    /* ............................footer.................... */
+    .footer{
+        margin-top: 40px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 50px;
+        row-gap: 20px;
+    }
+    .footer ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+     .footer a{
+        color: white;
+    }
+    .footer i{
+        font-size: 40px;
+    }
+    .social{
+        display: flex;
+        gap: 20px;
+    }
+}
+
+@media(min-width:700px){
+    /* ...................................................header........................... */
+    .navbar{
+        display: none;
+    }
+    .nav{
+        display: block;
+    }
+    .nav ul{
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .active{
+        font-weight: bold;
+    }
+    .nav ul a{
+        color: black;
+        text-shadow: 1px 2px seagreen;
+        transition: all 0.5s;
+    }
+    .nav ul a:hover{
+        font-weight: bold;
+    }
+    /* .......................................s1............................ */
+    .bg{
+        background-position: center;
+        justify-content: left; 
+        padding-left: 30px;
+    }
+    .bg div{
+        align-items: self-start;
+        text-align: left;
+        width: 60%;
+        height: 60%;
+    }
+    .bg h1{
+        font-size: 50px;
+    }
+    .bg p{
+        line-height: 160%;
+        font-size: 18px;
+    }
+    .s1 .btn{
+        margin-left: 0px ;
+        text-align: center;
+    }
+    /* .............................................s2................................... */
+  .box{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .text-div{
+    width: 40%;
+    row-gap: 30px;
+  }
+  .s2 h2{
+    margin-bottom: 50px;
+    font-size: 90px;
+    letter-spacing: 5px;
+  }
+  /* .............................................s3..................... */
+  .boxes{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+  }
+  .gray{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+  }
+  .gray h3{
+    font-size: 40px;
+  }
+  .gray p{
+    font-size: 20px;
+    line-height: 160%;
+    width: 80%;
+  }
+  .s3 i{
+    font-size: 80px;
+  }
+  .textdiv2{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        width: 60%;
+        align-items:flex-start;
+        text-align: left;
+  }
+  /* ................................s4............................. */
+.line{
+    height: 5px;
+    border-top: 9px dotted seagreen;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.s4 h3{
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 0;
+}
+.s4-wrapper{
+    flex-direction: row;
+    padding: 0;
+    text-align: left;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.s4-wrapper div{
+    width: 30%;
+}
+.s4 .btn{
+    margin: 0;
+}
+/* .......................................footer ........................... */
+.footer ul{
+    flex-direction:  row;
+    gap: 15px;
+}
+.footer{
+    row-gap: 35px;
+    margin-bottom: 30px;
+}
+}
+@media(min-width:1000px){
+.bg div{
+    width: 40%;
+}
+.bg{
+    padding-left: 100px;
+}
+/* ..................................s2.................. */
+.box{
+    flex-direction: column;
+}
+.wrapper{
+    flex-direction: row;
+}
+.text-div{
+    width: 70%;
+}
+/* ...............................................s3............................. */
+
+.gray{
+    background-color: black;
+}
+.graywas{
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.boxes{
+    flex-direction: column; 
+    padding: 30px;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.textdiv2{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.boxes i{
+    font-size: 45px;
+    
+}
+/* ................................footer........ */
+.footer{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+}
+@media (min-width: 320px){
+    .se1 .bg div{
+        height: 50%;
+    }
+    .se1 .bg{
+        background-image: url(../images/coffee.jpg);
+        
+    }
+    .se1{
+        /* margin-top: 100px; */
+    }
+    .wrappers2{
+        margin-top: 40px;
+        padding: 50px;
+        background-color:#cbc1c1;
+        border-top: 8px dotted salmon;
+        border-left: 8px dotted slateblue;
+        border-right: 8px dotted springgreen;
+        border-bottom: 8px dotted sienna;
+    }
+    .wrappers2 p, .wrappers2 h4{
+        color: white;
+    }
+    /*..........................................se2............................. */
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        
+    }
+   
+    
+    .left li{
+        border: 2px solid black;
+        background-color: wheat;
+        font-size: 20px;
+        opacity: 0.5;
+        text-align: left;
+        margin-bottom: 10px;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    
+    .left li:hover{
+        opacity: 1;
+    }
+    
+    .right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .right h3{
+        font-size: 25px;
+        font-weight: bold;
+        margin: 30px;
+    }
+    .rightboxes{
+        display:flex ;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+        width: 100%;
+    }
+    .option{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+       
+       
+    }
+    .options1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border: 5px solid seagreen;
+        color: seagreen;
+        background-color: wheat;
+        width: 90px;
+        height: 90px;
+        transition: all 0.5s;
+        cursor: pointer;
+        
+    }
+    .options1:hover{
+        border: 5px solid seagreen;
+        color: wheat;
+        background-color: seagreen;
+    }
+    .checked{
+        border: 5px solid seagreen;
+        color: wheat;
+        background-color: seagreen;
+    }
+    .picked{
+        border: 5px solid seagreen;
+        color: wheat;
+        background-color: seagreen;
+    }
+    .options1 h6{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .main{
+        margin-top: 30px;
+    }
+    .order{
+        font-size: 20px;
+        font-style: italic;
+        border: none;
+        
+    }
+    .order h5, span{
+        color: seagreen;
+    }
+    .center{
+
+        width: 200px;
+        margin: 30px auto 0;
+    }
+    #btn{
+        width: 100%;
+        height: 40px;
+        margin: 0 auto;
+        font-weight: bold;
+        font-size: 18px;
+        background-color: seagreen;
+        color: wheat;
+          
+    }
+}
+@media(min-width:700px){
+    .main{
+        flex-direction: row;
+    }
+    .left{
+        background-color: seagreen;
+        width: 40%;
+        padding-top: 100px;
+    }
+    .left li{
+        font-size: 35px;
+    }
+    .options1{
+        height: 115px;
+        width: 115px;
+    }
+}
+@media(min-width:1000px){
+    .left{
+        width: 45%;
+    }
+    .right{
+        width: 45%;
+    }
+}
